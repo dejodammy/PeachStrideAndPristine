@@ -6,20 +6,19 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "export": "next export",
         "start": "next start",
         "lint": "next lint"
     },
-    "author": "EnvyTheme.com",
+    "author": "Dejo",
     "license": "ISC",
     "dependencies": {
         "axios": "^0.21.4",
         "firebase": "^10.5.2",
         "nodemailer": "^6.7.1",
         "nodemailer-sendgrid-transport": "^0.2.0",
-        "react": "^18.0.0",
-        "react-accessible-accordion": "^3.3.5",
-        "react-dom": "^18.0.0",
+        "react": "^17.0.0",  
+        "react-accessible-accordion": "^5.0.0",
+        "react-dom": "^16.0.0",  
         "react-hook-form": "^6.15.8",
         "react-modal-video": "^1.2.8",
         "react-owl-carousel3": "^2.2.5",
@@ -29,6 +28,6 @@
         "sweetalert2-react-content": "^3.3.3"
     },
     "devDependencies": {
-        "next": "^13.5.3"
+        "next": "^14.0.1"
     }
 }
