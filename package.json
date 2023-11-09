@@ -28,6 +28,6 @@
         "sweetalert2-react-content": "^3.3.3"
     },
     "devDependencies": {
-        "next": "^14.0.1"
+        "next": "14.0.1"
     }
 }
