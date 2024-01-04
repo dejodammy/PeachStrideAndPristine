@@ -1,6 +1,6 @@
 import React from 'react';
-import { resetIdCounter, Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-resetIdCounter();
+import {  Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+
 
 const DigitalExperience = () => {
     return (

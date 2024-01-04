@@ -75,10 +75,10 @@ const ContactForm = () => {
                     className="form-control"
                     value={contact.name}
                     onChange={handleChange}
-                    ref={register({ required: true })}
+                   
                   />
                   <div className='invalid-feedback' style={{display: 'block'}}>
-                    {errors.name && 'Name is required.'}
+                 
                   </div>
                 </div>
               </div>
@@ -92,10 +92,10 @@ const ContactForm = () => {
                     className="form-control"
                     value={contact.email}
                     onChange={handleChange}
-                    ref={register({ required: true, pattern: /^\S+@\S+$/i })}
+                  
                   />
                   <div className='invalid-feedback' style={{display: 'block'}}>
-                    {errors.email && 'Email is required.'}
+                  
                   </div>
                 </div>
               </div>
@@ -109,10 +109,10 @@ const ContactForm = () => {
                     className="form-control"
                     value={contact.number}
                     onChange={handleChange}
-                    ref={register({ required: true })}
+                   
                   />
                   <div className='invalid-feedback' style={{display: 'block'}}>
-                    {errors.number && 'Number is required.'}
+                   
                   </div>
                 </div>
               </div>
@@ -126,10 +126,10 @@ const ContactForm = () => {
                     className="form-control"
                     value={contact.subject}
                     onChange={handleChange}
-                    ref={register({ required: true })}
+                   
                   />
                   <div className='invalid-feedback' style={{display: 'block'}}>
-                    {errors.subject && 'Subject is required.'}
+                    
                   </div>
                 </div>
               </div>
@@ -144,10 +144,10 @@ const ContactForm = () => {
                     className="form-control"
                     value={contact.text}
                     onChange={handleChange}
-                    ref={register({ required: true })}
+                   
                   />
                   <div className='invalid-feedback' style={{display: 'block'}}>
-                    {errors.text && 'Text body is required.'}
+                   
                   </div>
                 </div>
               </div>
