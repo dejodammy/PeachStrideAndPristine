@@ -20,7 +20,7 @@ const Navbar = () => {
         window.scrollTo(0, 0); 
     })
 
-    // Search Modal
+    // Search Modaly
     const [isActiveSearchModal, setActiveSearchModal] = useState("false");
     const handleToggleSearchModal = () => {
         setActiveSearchModal(!isActiveSearchModal);

@@ -4,10 +4,9 @@ import MainBanner from '../components/HomeOne/MainBanner';
 import AboutContent from '../components/HomeFive/AboutContent';
 import ServicesStyleOne from '../components/Common/ServicesStyleOne';
 import OurProjectStyleTwo from '../components/Common/OurProjectStyleTwo';
-import Testimonials from '../components/Common/Testimonials';
+import TestimonialStyleThree from '../components/Common/TestimonialStyleThree';
 import Partners from '../components/Common/Partners';
 import Footer from '../components/_App/Footer';
-import JobVacancy from '../components/Common/JobVacancy';
 
 const Index2 = () => {
     return (
@@ -22,9 +21,7 @@ const Index2 = () => {
 
             <OurProjectStyleTwo />
 
-            <Testimonials />
-
-            <JobVacancy/>
+            <TestimonialStyleThree />
 
             <Partners />
             

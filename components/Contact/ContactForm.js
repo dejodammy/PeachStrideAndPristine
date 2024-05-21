@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 import withReactContent from 'sweetalert2-react-content';
-import { FIRESTORE_DB } from '../../firebase_config/index';
-import { collection, addDoc } from "firebase/firestore"; 
 
 const MySwal = withReactContent(Swal);
-
 
 const alertContent = () => {
   MySwal.fire({
@@ -19,7 +16,6 @@ const alertContent = () => {
   });
 };
 
-// Form initial state
 const INITIAL_STATE = {
   name: '',
   email: '',
@@ -29,30 +25,35 @@ const INITIAL_STATE = {
 };
 
 const ContactForm = () => {
-  const [contact, setContact] = useState(INITIAL_STATE);
-  const { register, handleSubmit, errors } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm({
+    defaultValues: INITIAL_STATE,
+  });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setContact((prevState) => ({ ...prevState, [name]: value }));
-    console.log(contact);
-  };
+  const onSubmit = async (data) => {
+    try {
+      const response = await fetch('https://1lw5648921.execute-api.us-east-1.amazonaws.com/default/ContactPeach', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
 
-  const onSubmit = async (e) => {
-     try {
-      const { name, email, number, subject, text } = contact;
-      const payload = { name, email, number, subject, text };
-      const contactFormCollection = collection(FIRESTORE_DB, 'contact_details');
-      const docRef = await addDoc(contactFormCollection, payload);
-      setContact(INITIAL_STATE);
-      console.log('Document written with ID: ', docRef.id);
-      alertContent();
-      
-    }catch (error) {
-      console.log("Error here")
-        console.error('Error adding document: ', error);
+      if (response.ok) {
+        alertContent();
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      console.error('Error handling form submission: ', error);
+      MySwal.fire({
+        title: 'Error!',
+        text: 'There was an error sending your message. Please try again.',
+        icon: 'error',
+        showConfirmButton: true,
+      });
     }
-  }
+  };
 
   return (
     <div className="contact-area pb-100">
@@ -73,13 +74,9 @@ const ContactForm = () => {
                     name="name"
                     placeholder="Your Name"
                     className="form-control"
-                    value={contact.name}
-                    onChange={handleChange}
-                   
+                    {...register('name', { required: true })}
                   />
-                  <div className='invalid-feedback' style={{display: 'block'}}>
-                 
-                  </div>
+                  {errors.name && <div className="invalid-feedback" style={{ display: 'block' }}>This field is required</div>}
                 </div>
               </div>
 
@@ -90,13 +87,9 @@ const ContactForm = () => {
                     name="email"
                     placeholder="Your email address"
                     className="form-control"
-                    value={contact.email}
-                    onChange={handleChange}
-                  
+                    {...register('email', { required: true })}
                   />
-                  <div className='invalid-feedback' style={{display: 'block'}}>
-                  
-                  </div>
+                  {errors.email && <div className="invalid-feedback" style={{ display: 'block' }}>This field is required</div>}
                 </div>
               </div>
 
@@ -107,13 +100,8 @@ const ContactForm = () => {
                     name="number"
                     placeholder="Your phone number"
                     className="form-control"
-                    value={contact.number}
-                    onChange={handleChange}
-                   
+                    {...register('number')}
                   />
-                  <div className='invalid-feedback' style={{display: 'block'}}>
-                   
-                  </div>
                 </div>
               </div>
 
@@ -124,13 +112,9 @@ const ContactForm = () => {
                     name="subject"
                     placeholder="Your Subject"
                     className="form-control"
-                    value={contact.subject}
-                    onChange={handleChange}
-                   
+                    {...register('subject', { required: true })}
                   />
-                  <div className='invalid-feedback' style={{display: 'block'}}>
-                    
-                  </div>
+                  {errors.subject && <div className="invalid-feedback" style={{ display: 'block' }}>This field is required</div>}
                 </div>
               </div>
 
@@ -142,17 +126,11 @@ const ContactForm = () => {
                     rows="5"
                     placeholder="Write your message..."
                     className="form-control"
-                    value={contact.text}
-                    onChange={handleChange}
-                   
+                    {...register('text', { required: true })}
                   />
-                  <div className='invalid-feedback' style={{display: 'block'}}>
-                   
-                  </div>
+                  {errors.text && <div className="invalid-feedback" style={{ display: 'block' }}>This field is required</div>}
                 </div>
               </div>
-
-           
 
               <div className="col-lg-12 col-sm-12 text-center">
                 <button type="submit" className="default-btn">

@@ -56,28 +56,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-1.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Oladejo Olalekan</h3>
@@ -90,28 +69,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-2.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Adeyemo Toyin</h3>
@@ -124,28 +82,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-3.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Osoname Anthony-Aliu</h3>
@@ -158,28 +95,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-4.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Ayomide Lawal</h3>
@@ -192,28 +108,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-5.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Tejumojesu Oluremi</h3>
@@ -226,28 +121,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-6.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Ebikake Ubah</h3>
@@ -260,28 +134,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-7.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Bisola Soyemi</h3>
@@ -294,28 +147,7 @@ const TeamMember = () => {
                         <div className="image">
                             <img src="/images/team/team-8.jpg" alt="image" />
                         
-                            <ul className="social">
-                                <li>
-                                    <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
-                                    </a>
-                                </li>
-                            </ul>
+                            
 
                             <div className="content">
                                 <h3>Ebikake Ubah</h3>
