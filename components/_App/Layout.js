@@ -8,9 +8,9 @@ const Layout = ({ children }) => {
             <Head>
                 <title>Peach Strides And Pristines.</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                <meta name="description" content="Renex - SEO Marketing & IT Services React Next Template" />
-                <meta name="og:title" property="og:title" content="Renex - SEO Marketing & IT Services React Next Template"></meta>
-                <meta name="twitter:card" content="Renex - SEO Marketing & IT Services React Next Template"></meta>
+                <meta name="description" content="Peach Stride And Pristine Marketing Solutions" />
+                <meta name="og:title" property="og:title" content="Peach Stride And Pristine Marketing Solutions"></meta>
+                <meta name="twitter:card" content="Peach Stride And Pristine Marketing Solutions"></meta>
             </Head>
 
             {children}
