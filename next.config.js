@@ -1,6 +1,7 @@
 const path = require('path');
 
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   // Set the include path for Sass styles
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
@@ -15,5 +16,10 @@ module.exports = {
   // Specify the directory for the build output
   distDir: 'build',
 
+  // Enable static HTML export
+  output: 'export',
+
   // Other configurations can be added here
 };
+
+module.exports = nextConfig;
