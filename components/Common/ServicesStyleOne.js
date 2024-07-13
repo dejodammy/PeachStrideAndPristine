@@ -37,7 +37,7 @@ const ServicesStyleOne = () => {
               </Link>
             </div>
             <h3>
-              <Link href="/services-3">Exprimental Marketing</Link>
+              <Link href="/services-3">Experimental Marketing</Link>
             </h3>
             <p>Peach Strides and Pristines excels in experimental marketing, crafting immersive, data-driven campaigns that push boundaries, inspire engagement, and deliver unparalleled results, elevating your brand's presence and customer loyalty.</p>
 

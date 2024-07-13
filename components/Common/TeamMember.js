@@ -150,7 +150,7 @@ const TeamMember = () => {
                             
 
                             <div className="content">
-                                <h3>Ebikake Ubah</h3>
+                                <h3>Eniola Agboola</h3>
                                 <span>Partner Resource</span>
                             </div>
                         </div>
