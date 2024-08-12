@@ -21,7 +21,7 @@ const INITIAL_STATE = {
   email: '',
   number: '',
   subject: '',
-  text: '',
+  messages: '',
 };
 
 const ContactForm = () => {
@@ -54,8 +54,7 @@ const ContactForm = () => {
       });
     }
   };
-
-  return (
+ return (
     <div className="contact-area pb-100">
       <div className="container">
         <div className="section-title">
@@ -126,7 +125,7 @@ const ContactForm = () => {
                     rows="5"
                     placeholder="Write your message..."
                     className="form-control"
-                    {...register('text', { required: true })}
+                    {...register('messages', { required: true })}
                   />
                   {errors.text && <div className="invalid-feedback" style={{ display: 'block' }}>This field is required</div>}
                 </div>

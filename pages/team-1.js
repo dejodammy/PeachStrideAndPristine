@@ -45,7 +45,6 @@ const TeamOne = () => {
                             <div className="single-team">
                                 <div className="image">
                                     <img src="/images/team/team-2.jpg" alt="image" />
-                                
                                     
                                     <div className="content">
                                         <h3>Adeyemo Toyin</h3>

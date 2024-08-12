@@ -67,7 +67,7 @@ const AboutOne = () => {
             </div>  
 
             
-            <Features />
+
 
       
             
@@ -76,9 +76,7 @@ const AboutOne = () => {
             <TeamMember />
                        
 
-            <div className="pb-100">
-                <TestimonialStyleThree />
-            </div>
+            
             
               <div className="pt-10">
                 <Partners />

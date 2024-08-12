@@ -21,7 +21,6 @@ const Index2 = () => {
 
             <OurProjectStyleTwo />
 
-            <TestimonialStyleThree />
 
             <Partners />
             

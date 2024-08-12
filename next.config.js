@@ -16,10 +16,8 @@ const nextConfig = {
   // Specify the directory for the build output
   distDir: 'build',
 
-  // Enable static HTML export
-  output: 'export',
-
-  // Other configurations can be added here
+  // Remove this line for dynamic Next.js serving
+  // output: 'export',
 };
 
 module.exports = nextConfig;

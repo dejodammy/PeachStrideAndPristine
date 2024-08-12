@@ -145,20 +145,7 @@ const PortfolioTwo = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-12 col-md-12">
-                        <div className="pagination-area">
-                            <a href="#" className="prev page-numbers">
-                                <i className="flaticon-left-arrow"></i>
-                            </a>
-                            <a href="#" className="page-numbers">1</a>
-                            <span className="page-numbers current" aria-current="page">2</span>
-                            <a href="#" className="page-numbers">3</a>
-                            <a href="#" className="page-numbers">4</a>
-                            <a href="#" className="next page-numbers">
-                                <i className="flaticon-next"></i>
-                            </a>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
 
