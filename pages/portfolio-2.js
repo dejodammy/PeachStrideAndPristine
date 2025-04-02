@@ -21,22 +21,14 @@ const PortfolioTwo = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
                         <div className="single-portfolio-item">
-                            <div className="portfolio-image">
-                               
+                            <div className="portfolio-image">                               
 
                                     <img src="/images/portfolio/portfolio-1.jpg" alt="image" />
 
                              
                             </div>
 
-                            <div className="portfolio-content">
-                                <h3>
-                                  
-                                        Creative Work
-                                   
-                                </h3>
-                                <span>Web Design</span>
-                            </div>
+
                         </div>
                     </div>
 
@@ -50,14 +42,7 @@ const PortfolioTwo = () => {
                              
                             </div>
 
-                            <div className="portfolio-content">
-                                <h3>
-                                
-                                        Ecommerce Work
-                                 
-                                </h3>
-                                <span>Creative Agency</span>
-                            </div>
+
                         </div>
                     </div>
 
@@ -71,14 +56,6 @@ const PortfolioTwo = () => {
                               
                             </div>
 
-                            <div className="portfolio-content">
-                                <h3>
-                                   
-                                        App Development
-                                  
-                                </h3>
-                                <span>IOS Android</span>
-                            </div>
                         </div>
                     </div>
 
@@ -92,14 +69,7 @@ const PortfolioTwo = () => {
                             
                             </div>
 
-                            <div className="portfolio-content">
-                                <h3>
-                                  
-                                        Dashboard App
-                                   
-                                </h3>
-                                <span>Web Development</span>
-                            </div>
+
                         </div>
                     </div>
 
@@ -113,14 +83,7 @@ const PortfolioTwo = () => {
                                
                             </div>
 
-                            <div className="portfolio-content">
-                                <h3>
-                                   
-                                        Web Application
-                                  
-                                </h3>
-                                <span>Marketing</span>
-                            </div>
+
                         </div>
                     </div>
 
@@ -134,14 +97,7 @@ const PortfolioTwo = () => {
                               
                             </div>
 
-                            <div className="portfolio-content">
-                                <h3>
-                                   
-                                        Logo & Branding
-                                  
-                                </h3>
-                                <span>Agency</span>
-                            </div>
+
                         </div>
                     </div>
 

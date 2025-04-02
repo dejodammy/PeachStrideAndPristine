@@ -79,7 +79,7 @@ const ContactForm = () => {
                 </div>
               </div>
 
-              <div className="col-lg-6   col-md-6">
+              <div className="col-lg-6 col-md-6">
                 <div className="form-group">
                   <input
                     type="text"
