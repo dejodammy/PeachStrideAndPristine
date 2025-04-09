@@ -6,17 +6,17 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  
-  // Add a trailing slash to the end of URLs
+
+  // Add a trailing slash to the end of URLs (ensure this is necessary for your project)
   trailingSlash: true,
 
-  // Disable font optimization
+  // Disable font optimization (can be helpful to test if this is causing issues)
   optimizeFonts: false,
 
-  // Specify the directory for the build output
-  distDir: 'build',
+  // Ensure the build output uses the default '.next' folder
+  // distDir: 'build', // Remove this line
 
-  // Remove this line for dynamic Next.js serving
+  // Uncomment this if you're exporting the app as a static site
   // output: 'export',
 };
 
